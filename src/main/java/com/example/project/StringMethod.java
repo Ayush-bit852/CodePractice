@@ -1,9 +1,5 @@
 package com.example.project;
 
-import org.springframework.context.annotation.EnableMBeanExport;
-
-import java.awt.dnd.DragGestureListener;
-
 public class StringMethod {
 
     public static void main(String[] args) {
@@ -30,17 +26,9 @@ public class StringMethod {
         }else {
             System.out.println("Your name Dosent contains a space");
         }
-
         int  occurence1  = str.indexOf("a");
         System.out.println(occurence1);
 
-
-        System.Logger logger = System.getLogger(new DragGestureListener());
-        try {
-            System.getProperty("user.home"); // Access system property
-        } catch (SecurityException e) {
-            System.out.println("Access Denied: " + e.getMessage());
-        }
         
     }
 }
