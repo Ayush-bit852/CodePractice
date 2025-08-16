@@ -29,6 +29,13 @@ public class StringMethod {
         int  occurence1  = str.indexOf("a");
         System.out.println(occurence1);
 
+
+
+
+
+
+
+
         
     }
 }
